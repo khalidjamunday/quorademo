@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Post</title>
+</head>
+<body>
+    <!-- <form method="POST" action=http://localhost:3000/posts"> -->
+    <form method="POST" action="/posts">
+        <!-- /posts also works kyuki yeh given url ke aage cascade krta hai action wali cheez -->
+        <!-- name same as that in array which is serving as our database -->
+        <input type="text" placeholder="Enter Username" name="username"> <br><br>
+        <textarea name="content" cols="30" rows="10" placeholder="Enter Content"></textarea><br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
